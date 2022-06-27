@@ -1,0 +1,36 @@
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 0.5rem;
+  }
+
+.text-animate-hover {
+  min-width: 0.5rem;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: var(--color-primary);
+  }
+}
+
+@for $i from 1 through 95 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 15}s;
+  }
+}
+
+// @keyframes rubberBand {
+//   from{transform: scale3d(1,1,1);}
+//   30%{tranform: scale3d(1.25,1.1,1);}
+//   50%{tranform: scale3d(0.86,0.95,2);}
+//   60%{tranform: scale3d(1.55,1.22,1);}
+//   70%{tranform: scale3d(0.75,0.65,2);}
+//   80%{tranform: scale3d(1.7,1.6,1);}
+//   to{transform: scale3d(1,1,1);}
+// }

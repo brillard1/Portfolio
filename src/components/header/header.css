@@ -1,0 +1,113 @@
+header {
+    height: 100vh;
+    padding-top: 18rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.quote {
+    color: var(--color-primary);
+    margin-top: 1.5rem;
+}
+
+.resp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* ========================== CTA =====================*/
+
+.cta {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: left;
+    user-select: none;
+}
+
+/* ========================== Socials =====================*/
+
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header_socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ========================== Socials =====================*/
+
+.me {
+    background: linear-gradient(var(--color-primary, transparent));
+    width: 16rem;
+    height: 24rem;
+    position: relative;
+    left: calc(50% - 8rem);
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 0rem 1.5rem 1.5rem 1.5rem; */
+}
+
+/* ========================== Scroll Down =====================*/
+
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ======================= Media Queries (Medium Devices) =====================*/
+@media screen and (max-width: 1024px){
+    header {
+        height: 80vh;
+        padding-top: 10rem;
+    }
+
+    .resp {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+
+}
+
+/* ======================= Media Queries (Small Devices) =====================*/
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+        padding-top: 10rem;
+    }
+
+    .resp{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .header_socials, .scroll_down {
+        display: none;
+    }
+
+    .cta {
+        justify-content: center;
+    }
+
+}
