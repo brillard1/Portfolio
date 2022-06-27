@@ -7,7 +7,7 @@ import Letter from './Letter'
 
 const Header = () => {
   return (
-    <header>
+    <header id='header'>
       <div className="container header_container">
         {/* <h5>Hello I'm</h5>
         <h1>Abhishek Rajora</h1>
