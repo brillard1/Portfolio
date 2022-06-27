@@ -1,9 +1,9 @@
 import React from 'react'
 import "./about.css"
 import pfp from '../../assets/pfp.png'
-import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {SiWebpack} from 'react-icons/si'
+import {IoMdAnalytics} from 'react-icons/io'
+import {SiCodeforces} from 'react-icons/si'
 
 const About = () => {
   return (
@@ -19,17 +19,17 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className='about_card'>
-              <FaAward className='about_icon' />
+              <SiWebpack className='about_icon' />
               <h2>Web Development</h2>
               <small>5 Projects</small>
             </article>
             <article className='about_card'>
-              <FiUsers className='about_icon' />
+              <IoMdAnalytics className='about_icon' />
               <h2>Macchine Learning</h2>
               <small>3 Projects</small>
             </article>
             <article className='about_card'>
-              <VscFolderLibrary className='about_icon' />
+              <SiCodeforces className='about_icon' />
               <h2>Competitive Programming</h2>
               <small>1 year</small>
             </article>
