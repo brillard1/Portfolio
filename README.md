@@ -9,6 +9,7 @@ Run <code>git clone https://github.com/brillard1/Portfolio</code> in your shell.
 
 ### To download the required dependencies:
 <code>cd</code> into the folder created then,
+<br/>
 Run <code>npm install</code>.
 
 ### To host the website on your device:
