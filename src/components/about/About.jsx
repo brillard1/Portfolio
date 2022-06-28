@@ -25,7 +25,7 @@ const About = () => {
             </article>
             <article className='about_card'>
               <IoMdAnalytics className='about_icon' />
-              <h2>Macchine Learning</h2>
+              <h2>Machine Learning</h2>
               <small>3 Projects</small>
             </article>
             <article className='about_card'>
