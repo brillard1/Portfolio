@@ -60,7 +60,7 @@ const Letter = () => {
         </div>
         </div>
         <div className='cta'>
-          <a href={Resume} download className='btn'>Download Resume</a>
+          <a href={Resume} target='blank' className='btn'>View Resume</a>
           <a href='#contact' className='btn btn-primary'>Hire Me</a>
         </div>
       </div>

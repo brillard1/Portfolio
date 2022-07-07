@@ -68,7 +68,7 @@ const Experience = () => {
               <div>
                 <p className='description'>
                 In this project, I explore several deep-learning-based approaches along with 
-                classical machine learning algorithms for an almost exhaustive analysis of the topic. 
+                classical machine learning algorithms for an exhaustive analysis of the audio features and its behavior.
                 In doing so, I utilize the Ravdess dataset and perform extensive analysis of various algorithms.
                 </p>
               </div>
